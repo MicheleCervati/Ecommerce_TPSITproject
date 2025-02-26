@@ -1,0 +1,82 @@
+.color-button.btn-primary {
+    color: white !important;
+}
+
+
+#sidebar {
+    width: 100%;
+    max-width: 300px;
+    overflow-y: auto;
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    z-index: 1000;
+    background-color: #f8f9fa;
+    padding: 1rem;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+#main-content {
+    margin-right: 320px; /* Spazio per la sidebar */
+}
+
+@media (max-width: 768px) {
+    #sidebar {
+        transform: translateX(100%);
+    }
+
+    #sidebar.show {
+        transform: translateX(0);
+    }
+
+    #main-content {
+        margin-right: 0;
+    }
+
+    #cart-icon {
+        display: block;
+    }
+}
+
+#cart-icon {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1100;
+}
+
+/* Animazione per ingrandire la card e cambiare il contorno a verde */
+.prodotto {
+    transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.prodotto:hover {
+    transform: scale(1.05);
+    border-color: green;
+    box-shadow: 0 0 10px rgba(0, 128, 0, 0.5);
+}
+
+/* Animazione per ingrandire la card nel carrello e cambiare il contorno a arancione */
+.cart-item {
+    transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.cart-item:hover {
+    transform: scale(1.05);
+    border-color: orange;
+    box-shadow: 0 0 10px rgba(255, 165, 0, 0.5);
+    cursor: pointer; /* Cambia il puntatore a quello di un pulsante cliccabile */
+}
+
+.cart-item .modify-button {
+    display: none;
+    color: orange;
+    font-weight: bold;
+}
+
+.cart-item:hover .modify-button {
+    display: block;
+}

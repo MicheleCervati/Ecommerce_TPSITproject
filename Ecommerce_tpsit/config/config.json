@@ -1,0 +1,12 @@
+{
+    "sconti" : [
+        {
+            "codice_sconto" : "SCONTO10",
+            "valore_sconto" : 10
+        },
+        {
+            "codice_sconto" : "SCONTO20",
+            "valore_sconto" : 20
+        }
+    ]
+}

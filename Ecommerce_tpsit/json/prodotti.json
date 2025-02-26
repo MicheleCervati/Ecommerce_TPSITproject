@@ -1,0 +1,182 @@
+{
+  "products": [
+      {
+          "id": 0,
+          "title": "Maglietta Balenciaga",
+          "colors": [
+              {
+                  "color": "Rosso",
+                  "sizes": ["S", "M", "XL"],
+                  "image": "/img/magliettaRossa.jpg",
+                  "price": 19.99
+              },
+              {
+                  "color": "Blu",
+                  "sizes": ["S", "M", "L"],
+                  "image": "/img/magliettaBlu.jpg",
+                  "price": 21.99
+              }
+          ],
+          "category": "Magliette",
+          "materiale": "Cotone",
+          "codice_articolo": "123456",
+          "fit": "Regular",
+          "istruzioni_lavatrice" : "Lavare a 30°, delicato"
+      },
+      {
+          "id": 1,
+          "title": "Felpa Hermes",
+          "colors": [
+              {
+                  "color": "Blu",
+                  "sizes": ["M", "L", "XL"],
+                  "image": "/img/felpaBlu.jpg",
+                  "price": 39.99
+              },
+              {
+                  "color": "Grigio",
+                  "sizes": ["S", "M", "L"],
+                  "image": "/img/felpaGrigia.jpg",
+                  "price": 42.99
+              }
+          ],
+          "category": "Felpe",
+          "materiale": "Cotone",
+          "codice_articolo": "654321",
+          "fit": "Loose",
+          "istruzioni_lavatrice" : "Lavare a 30°, delicato"
+      },
+      {
+          "id": 2,
+          "title": "Pantaloni Gucci",
+          "colors": [
+              {
+                  "color": "Verde",
+                  "sizes": ["XS", "S", "M", "L"],
+                  "image": "/img/pantaloniGucciVerdi.jpg",
+                  "price": 29.99
+              },
+              {
+                  "color": "Arancione",
+                  "sizes": ["S", "M", "L", "XL"],
+                  "image": "/img/pantaloniGucciArancioni.jpg",
+                  "price": 32.99
+              },
+              {
+                "color": "Viola",
+                "sizes": ["S", "M", "L", "XL"],
+                "image": "/img/pantaloniGucciViola.jpg",
+                "price": 38.99
+            }
+          ],
+          "category": "Pantaloni",
+          "materiale": "Poliestere",
+          "codice_articolo": "789012",
+          "fit": "Slim",
+          "istruzioni_lavatrice" : "Lavare a 40°, delicato"
+      },
+      {
+          "id": 3,
+          "title": "Gonna Dior",
+          "colors": [
+              {
+                  "color": "Giallo",
+                  "sizes": ["XS", "S", "M"],
+                  "image": "/img/gonnaDiorGialla.jpg",
+                  "price": 24.99
+              },
+              {
+                  "color": "Rosa",
+                  "sizes": ["S", "M", "L"],
+                  "image": "/img/gonnaDiorRosa.jpg",
+                  "price": 26.99
+              }
+          ],
+          "category": "Gonne",
+          "materiale": "Seta",
+          "codice_articolo": "345678",
+          "fit": "A-line",
+          "istruzioni_lavatrice" : "Lavare a mano, delicato"
+      },
+      {
+          "id": 4,
+          "title": "Scarpe Nike",
+          "colors": [
+              {
+                  "color": "Bianco",
+                  "sizes": ["38", "39", "40", "41"],
+                  "image": "/img/scarpeNikeBianche.jpg",
+                  "price": 49.99
+              }
+          ],
+          "category": "Scarpe",
+          "materiale": "Pelle",
+          "codice_articolo": "987654",
+          "fit": "Regular",
+          "istruzioni_lavatrice" : "Pulire con un panno umido"
+      },
+      {
+          "id": 5,
+          "title": "Cappotto Zara",
+          "colors": [
+              {
+                  "color": "Marrone",
+                  "sizes": ["S", "M", "L"],
+                  "image": "/img/cappottoZaraMarrone.jpg",
+                  "price": 89.99
+              },
+              {
+                  "color": "Nero",
+                  "sizes": ["M", "L", "XL"],
+                  "image": "/img/cappottoZaraNero.jpg",
+                  "price": 92.99
+              }
+          ],
+          "category": "Cappotti",
+          "materiale": "Lana",
+          "codice_articolo": "112233",
+          "fit": "Regular",
+          "istruzioni_lavatrice" : "Lavare a secco"
+      },
+      {
+          "id": 6,
+          "title": "Giubino Moncler",
+          "colors": [
+              {
+                  "color": "Nero",
+                  "sizes": ["Unica"],
+                  "image": "/img/giubinoMonclerNero.jpg",
+                  "price": 129.99
+              }
+          ],
+          "category": "Accessori",
+          "materiale": "Nylon",
+          "codice_articolo": "445566",
+          "fit": "Regular",
+          "istruzioni_lavatrice" : "Lavare a 30°, delicato"
+      },
+      {
+        "id": 7,
+        "title": "Giubino Napapijri",
+        "colors": [
+            {
+                "color": "Verde",
+                "sizes": ["S", "L"],
+                "image": "/img/giubinoNapapijriVerde.jpg",
+                "price": 89.99
+            },
+            {
+                "color": "Rosa",
+                "sizes": ["XXS", "XXL"],
+                "image": "/img/giubinoNapapijriRosa.jpg",
+                "price": 160.99
+            }
+        ],
+        "category": "Cappotti",
+        "materiale": "Poliestere",
+        "codice_articolo": "778899",
+        "fit": "Regular",
+        "istruzioni_lavatrice" : "Lavare a 30°, delicato"
+    }
+  ]
+}

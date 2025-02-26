@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caratteristiche Prodotto</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container py-5">
+        <h1 class="text-center mb-4">Caratteristiche del Prodotto</h1>
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>Caratteristica</th>
+                    <th>Valore</th>
+                </tr>
+            </thead>
+            <tbody id="product-features">
+                <!-- Le caratteristiche del prodotto verranno caricate dinamicamente qui -->
+            </tbody>
+        </table>
+        <div class="d-flex justify-content-between mt-4">
+            <button id="back-to-shopping" class="btn btn-secondary">Torna allo Shopping</button>
+            <button id="continue-shopping" class="btn btn-primary">Continua l'Acquisto</button>
+        </div>
+    </div>
+    <script src="caratteristiche.js"></script>
+</body>
+</html>
